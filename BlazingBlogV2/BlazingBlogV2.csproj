@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-BlazingBlogV2-837e19d9-5b76-467c-acc1-2571bbe5f6b3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\assets\css\main.css" />
+    <Content Remove="wwwroot\assets\css\main.css.map" />
+    <Content Remove="wwwroot\assets\img\demo\1.jpg" />
+    <Content Remove="wwwroot\assets\img\demo\3.jpg" />
+    <Content Remove="wwwroot\assets\img\demo\5.jpg" />
+    <Content Remove="wwwroot\assets\img\demo\avatar2.jpg" />
+    <Content Remove="wwwroot\assets\img\demo\blog4.jpg" />
+    <Content Remove="wwwroot\assets\img\demo\blog5.jpg" />
+    <Content Remove="wwwroot\assets\img\demo\blog6.jpg" />
+    <Content Remove="wwwroot\assets\img\demo\blog8.jpg" />
+    <Content Remove="wwwroot\assets\img\demo\home.jpg" />
+    <Content Remove="wwwroot\assets\img\demo\intro.jpg" />
+    <Content Remove="wwwroot\assets\img\demo\sal.jpg" />
+    <Content Remove="wwwroot\assets\img\favicon.ico" />
+    <Content Remove="wwwroot\assets\img\screenshot-mundana-article.png" />
+    <Content Remove="wwwroot\assets\img\screenshot-mundana-category.png" />
+    <Content Remove="wwwroot\assets\img\screenshot-mundana.png" />
+    <Content Remove="wwwroot\assets\js\functions.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\css\main.css" />
+    <None Include="wwwroot\assets\css\main.css.map" />
+    <None Include="wwwroot\assets\img\demo\1.jpg" />
+    <None Include="wwwroot\assets\img\demo\3.jpg" />
+    <None Include="wwwroot\assets\img\demo\5.jpg" />
+    <None Include="wwwroot\assets\img\demo\avatar2.jpg" />
+    <None Include="wwwroot\assets\img\demo\blog4.jpg" />
+    <None Include="wwwroot\assets\img\demo\blog5.jpg" />
+    <None Include="wwwroot\assets\img\demo\blog6.jpg" />
+    <None Include="wwwroot\assets\img\demo\blog8.jpg" />
+    <None Include="wwwroot\assets\img\demo\home.jpg" />
+    <None Include="wwwroot\assets\img\demo\intro.jpg" />
+    <None Include="wwwroot\assets\img\demo\sal.jpg" />
+    <None Include="wwwroot\assets\img\favicon.ico" />
+    <None Include="wwwroot\assets\img\screenshot-mundana-article.png" />
+    <None Include="wwwroot\assets\img\screenshot-mundana-category.png" />
+    <None Include="wwwroot\assets\img\screenshot-mundana.png" />
+    <None Include="wwwroot\assets\js\functions.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
